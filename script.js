@@ -1,10 +1,16 @@
-document.querySelectorAll("nav a").forEach(anchor => {
-anchor.addEventListener("click", function(e) {
-e.preventDefault();
+var typed = new Typed("#typing", {
 
-document.querySelector(this.getAttribute("href"))
-.scrollIntoView({
-behavior: "smooth"
-});
-});
+strings: [
+
+"Java Backend Developer",
+"Spring Boot Developer",
+"Microservices Developer",
+"Software Developer Intern @ DRDO"
+
+],
+
+typeSpeed:60,
+backSpeed:40,
+loop:true
+
 });
