@@ -1,11 +1,11 @@
-var typed = new Typed("#typing", {
+var typed = new Typed("#typing",{
 
-strings: [
+strings:[
 
 "Java Backend Developer",
 "Spring Boot Developer",
 "Microservices Developer",
-"Software Developer Intern @ DRDO"
+"Fresher • Immediate Joiner"
 
 ],
 
